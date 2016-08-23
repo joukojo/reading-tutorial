@@ -30,24 +30,45 @@ body {
 
 
 <body>
-    <div class="container">
-      <h1>Lue sa-na</h1>
+    <div class="container-fluid text-center">
+      <h3>Lue sa-na</h3>
 
-      <h3 id="word" class="text-primary">&nbsp;</h3>
+      <h1 id="word" class="text-primary">&nbsp;</h1>
 
-      <button class="btn-success" onclick="nextWord()">Uu-si</button>
 
+      <div id="settings">
+      <p class="bold">Ta-so:
+        <select name="level" id="level">
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+      </p>
+
+      <button class="btn-success btn-lg" onclick="nextWord()">Uu-si</button>
+    </div>
 
   </div>
 
   <script>
-    var items = ['hei', 'au-to', 'on-ko', 'on-ki', 'kuk-ka', '&auml;i-ti', 'i-si', 'a-vain', 'no-kia', 'ti-laus', 'fer-ra-ri'];
+    var allWords = [];
+
+
     var index = 0;
     function nextWord() {
+      var level = $('#level option:selected').text();
+      //console.log('level', level);
 
+      var items =[];
+      for( i = 0 ; i < allWords.length ; i++ ) {
+        //console.log('allwords:', allWords[i].word);
+
+        if( allWords[i].length == level ) {
+          items.push(allWords[i].word);
+        }
+      }
       var newIndex = Math.floor(Math.random()*items.length);
 
-      while( index == newIndex ) {
+      while( index == newIndex && items.length > 1 ) {
         newIndex = Math.floor(Math.random()*items.length);
       }
       index = newIndex;
@@ -55,6 +76,19 @@ body {
       return false;
     }
 
+    function loadWords(len) {
+      //console.log('loading');
+      $.get('https://dl.dropboxusercontent.com/u/20951013/learning/words-2.json', {}, function(resp) {
+        //console.log(resp);
+        var words = jQuery.parseJSON(resp);
+        //console.log(words.words);
+        allWords = words.words;
+
+      });
+
+      //console.log('loaded');
+    }
+    loadWords();
     nextWord();
   </script>
 

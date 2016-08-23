@@ -1,0 +1,370 @@
+{
+  "words": [
+    {
+      "word": "au",
+      "length": 1
+    },
+    {
+      "word": "aa",
+      "length": 1
+    },
+    {
+      "word": "ai",
+      "length": 1
+    },
+    {
+      "word": "an",
+      "length": 1
+    },
+    {
+      "word": "ar",
+      "length": 1
+    },
+    {
+      "word": "at",
+      "length": 1
+    },
+    {
+      "word": "am",
+      "length": 1
+    },
+    {
+      "word": "mi",
+      "length": 1
+    },
+    {
+      "word": "li",
+      "length": 1
+    },
+    {
+      "word": "al",
+      "length": 1
+    },
+    {
+      "word": "li",
+      "length": 1
+    },
+    {
+      "word": "mi",
+      "length": 1
+    },
+    {
+      "word": "ma",
+      "length": 1
+    },
+    {
+      "word": "mu",
+      "length": 1
+    },
+    {
+      "word": "nu",
+      "length": 1
+    },
+    {
+      "word": "na",
+      "length": 1
+    },
+    {
+      "word": "ar",
+      "length": 1
+    },
+    {
+      "word": "ap",
+      "length": 1
+    },
+    {
+      "word": "pa",
+      "length": 1
+    },
+    {
+      "word": "to",
+      "length": 1
+    },
+    {
+      "word": "lu",
+      "length": 1
+    },
+    {
+      "word": "la",
+      "length": 1
+    },
+    {
+      "word": "ly",
+      "length": 1
+    },
+    {
+      "word": "le",
+      "length": 1
+    },
+    {
+      "word": "ka",
+      "length": 1
+    },
+    {
+      "word": "ki",
+      "length": 1
+    },
+    {
+      "word": "ku",
+      "length": 1
+    },
+    {
+      "word": "ky",
+      "length": 1
+    },
+    {
+      "word": "hi",
+      "length": 1
+    },
+    {
+      "word": "ha",
+      "length": 1
+    },
+    {
+      "word": "hu",
+      "length": 1
+    },
+    {
+      "word": "hy",
+      "length": 1
+    },
+    {
+      "word": "ho",
+      "length": 1
+    },
+    {
+      "word": "vi",
+      "length": 1
+    },
+    {
+      "word": "va",
+      "length": 1
+    },
+    {
+      "word": "ve",
+      "length": 1
+    },
+
+    {
+      "word": "ty",
+      "length": 1
+    },
+    {
+      "word": "kou",
+      "length": 1
+    },
+    {
+      "word": "kau",
+      "length": 1
+    },
+    {
+      "word": "kel",
+      "length": 1
+    },
+
+    {
+      "word": "ve",
+      "length": 1
+    },
+    {
+      "word": "at",
+      "length": 1
+    },
+    {
+      "word": "ta",
+      "length": 1
+    },
+    {
+      "word": "te",
+      "length": 1
+    },
+
+    {
+      "word": "to",
+      "length": 1
+    },
+    {
+      "word": "ti",
+      "length": 1
+    },
+    {
+      "word": "na",
+      "length": 1
+    },
+    {
+      "word": "ku",
+      "length": 1
+    },
+
+    {
+      "word": "ta",
+      "length": 1
+    },
+    {
+      "word": "ku",
+      "length": 1
+    },
+    {
+      "word": "aa",
+      "length": 1
+    },
+    {
+      "word": "kel",
+      "length": 1
+    },
+    {
+      "word": "kau",
+      "length": 1
+    },
+    {
+      "word": "si",
+      "length": 1
+    },
+    {
+      "word": "au-to",
+      "length": 2
+    },
+    {
+      "word": "al-ku",
+      "length": 2
+    },
+    {
+      "word": "ar-to",
+      "length": 2
+    },
+    {
+      "word": "as-te",
+      "length": 2
+    },
+    {
+      "word": "ai-to",
+      "length": 2
+    },
+    {
+      "word": "au-to",
+      "length": 2
+    },
+    {
+      "word": "ai-ta",
+      "length": 2
+    },
+    {
+      "word": "ar-pi",
+      "length": 2
+    },
+    {
+      "word": "kuk-ka",
+      "length": 2
+    },
+    {
+      "word": "aa-te",
+      "length": 2
+    },
+    {
+      "word": "ar-mo",
+      "length": 2
+    },
+    {
+      "word": "aa-si",
+      "length": 2
+    },
+    {
+      "word": "le-lu",
+      "length": 2
+    },
+    {
+      "word": "luu-ta",
+      "length": 2
+    },
+    {
+      "word": "si-ma",
+      "length": 2
+    },
+    {
+      "word": "sii-ma",
+      "length": 2
+    },
+    {
+      "word": "lii-ma",
+      "length": 2
+    },
+
+
+    {
+      "word": "luu-ri",
+      "length": 2
+    },
+    {
+      "word": "laa-ma",
+      "length": 2
+    },
+    {
+      "word": "lau-ta",
+      "length": 2
+    },
+    {
+      "word": "lai-ta",
+      "length": 2
+    },
+    {
+      "word": "ruu-su",
+      "length": 2
+    },
+    {
+      "word": "ruo-ri",
+      "length": 2
+    },
+    {
+      "word": "ri-ma",
+      "length": 2
+    },
+    {
+      "word": "ri-sa",
+      "length": 2
+    },
+
+
+    {
+      "word": "rau-ta",
+      "length": 2
+    },
+    {
+      "word": "kan-to",
+      "length": 2
+    },
+    {
+      "word": "kau-si",
+      "length": 2
+    },
+    {
+      "word": "kel-lo",
+      "length": 2
+    },
+
+
+
+    {
+      "word": "luu-ri",
+      "length": 2
+    },
+    {
+      "word": "laa-ma",
+      "length": 2
+    },
+    {
+      "word": "lau-ta",
+      "length": 2
+    },
+    {
+      "word": "lai-ta",
+      "length": 2
+    },
+
+    {
+      "word": "aa-mu",
+      "length": 2
+    }
+
+
+  ]
+}
