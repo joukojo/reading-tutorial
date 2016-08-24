@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 
@@ -34,7 +36,10 @@ body {
       <h3>Lue sa-na</h3>
 
       <h1 id="word" class="text-primary">&nbsp;</h1>
+      <audio id="player" controls="controls">
+        <source id="file" src="audio/ai.wav" type="audio/wav" />
 
+      </audio>
 
       <div id="settings">
       <p class="bold">Ta-so:
@@ -73,6 +78,14 @@ body {
       }
       index = newIndex;
       $('#word').html(  items[newIndex] );
+
+      var audio = $("#player");
+      $("#file").attr("src", 'audio/' + items[newIndex] + '.wav');
+      audio[0].pause();
+      audio[0].load();//suspends and restores all audio element
+
+      //audio[0].play(); changed based on Sprachprofi's comment below
+
       return false;
     }
 
@@ -90,6 +103,18 @@ body {
     }
     loadWords();
     nextWord();
+  </script>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83009793-1', 'auto');
+  ga('send', 'pageview');
+
   </script>
 
 </body>
