@@ -1,0 +1,26 @@
+{
+  "name": "reading-tutorial",
+  "version": "0.0.1",
+  "description": "Initial version",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joukojo/reading-tutorial.git"
+  },
+  "author": "Jouko Johansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joukojo/reading-tutorial/issues"
+  },
+  "homepage": "https://github.com/joukojo/reading-tutorial#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "http-server": "^0.9.0"
+  }
+}
