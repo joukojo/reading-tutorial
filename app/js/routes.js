@@ -9,9 +9,6 @@ angular.
           templateUrl: '/js/templates/reading/reading-template.html',
           controller: 'learnReadController'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
-        }).
         otherwise('/reading');
     }
   ]);
