@@ -1,0 +1,15 @@
+
+<h3>Lue sa-na</h3>
+
+<div class="container-fluid text-center">
+
+<h1 id="word" class="text-primary">{{ word }}</h1>
+<audio id="player" controls="controls">
+  <source id="file" src="" type="audio/wav" />
+</audio>
+
+<div id="settings">
+  <select name="level" id="level"  ng-model="data.selectedOption" ng-options="option.name for option in data.availableOptions track by option.id">
+  </select>
+  <button class="btn-default btn-lg" ng-click="click()" >Uu-si</button>
+</div>
