@@ -1,0 +1,16 @@
+{
+  "name": "reading-tutorial",
+  "description": "A starter project for reading-tutorial",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joukojo/reading-tutorial",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x"
+  }
+}
